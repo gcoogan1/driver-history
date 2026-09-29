@@ -123,6 +123,7 @@ function App() {
 
                       <YAxis
                         reversed
+                        domain={[0, 100]}
                         allowDecimals={false}
                         stroke="#999"
                         tick={{ fill: "#aaa" }}
